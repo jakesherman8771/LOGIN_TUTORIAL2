@@ -68,7 +68,6 @@ public class Login extends Application {
         primaryStage.setScene(scene);
         scene.getStylesheets().add
                 (Login.class.getResource("Login.css").toExternalForm());
-       // Changed from Login.class to Login.class
         primaryStage.show();
     }
 
